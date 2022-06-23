@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    line-height: 1.6; /* to space out elements*/
+}
+
+ul {
+    list-style-type: none; /* to remove the bullet listing*/
+}
+
+a {
+    text-decoration: none; /* get rid of the underline in links*/
+}
+
+h1,
+h2 {
+    font-weight: 300; /* make them less bold*/
+    line-height: 1.2;
+    margin: 10px 0; /* margin top and bottom of 10px and 0 margin left and right*/
+}
+
+.top h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.top h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.top p {
+    font-size: 18px;
+     color: #e5e7eb;
+}
+
+img {
+    width: 100%; /* keep images within the border of the container*/
+    width: 450px;
+    height: 300px;
+}
+
+.top {
+    background-color: #1f2937;
+    /*max-width: 1100px;
+    margin: 0 auto;*/
+    overflow: auto; /* eliminates the margin at the top, so the box extends from top of webpage*/
+    padding: 0 100px;
+    padding-bottom: 80px;
+
+}
+
+.container-1 {
+   max-width: 1100px;
+   margin: 0 auto;
+}
+
+header {
+    display: flex; /* make h2 and nav flex box items, hence display them side by side*/
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.split {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.top ul {
+    display: flex;
+}
+.top li {
+     margin: 10px 15px;
+     padding: 10px;
+     line-height: 1.2;
+     font-size: 18px;
+     color: #e5e7eb;
+     margin-bottom: 35px;
+
+ }
+
+ .top li:hover{
+     border-bottom: 2px red solid;
+ }
+
+ .top button {
+     background-color: rgba(9, 64, 216, 0.877);
+     color: #f9faf8;
+     padding: 6px 35px;
+     border: none;
+     font-weight: 600;
+     border-radius: 5px;
+ }
